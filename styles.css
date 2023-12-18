@@ -515,7 +515,8 @@
       display: flex;
       /* width: 100%; */
       flex-direction: row;
-      justify-content: left;
+      justify-content: space-between;
+      width:100vw;
       /* margin-left: 3%; */
     }
     .logo-share-container{
@@ -524,15 +525,15 @@
       align-items: start;
       /* flex-direction: column; */
       margin-right: 5rem;
-      margin-left: 1rem;
+      margin-left: 10rem;
       margin-bottom: 1vh;
     }
     .end-logo{
       /* margin-top: 0.2rem; */
       /* padding-block: 9vh; */
-      /* margin-left: -2vw; */
-      height: 55%;
-      width: 55%;
+      /* margin-left: 2vw; */
+      height: 5rem;
+      width: 9rem;
       margin-bottom: 3vh;
       /* padding-bottom: 4vh; */
     }
@@ -541,38 +542,41 @@
       margin-bottom: 1vh;
     }
     .ending-section{
-      justify-content: left;
+      display: flex;
+      /* justify-content: space-around; */
       padding-block: 2%;
     }
     .end-content-container{
-      margin-right: 30vw;
-      margin-top: 4vh;
+      margin-right: 25vw;
+      margin-top: 3vh;
+      
       height: 15vh;
-      width: 90%;
+      width: 20%;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
     }
     .end-content{
-      padding-inline: 3vw;
+      /* padding-inline: 2vw; */
       font-size: 1rem ;
       margin-block: 1vh;
+      /* padding-left: 10vw; */
       color: var(--grayish-blue);
+      /* padding-top: 1vh; */
       /* padding-block: 5%; */
     }
     .button-container{
-      width: 100%;
+      /* width: 100%; */
+   
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      margin-left: 50%;
-      align-items: center;
+      /* margin-left: 70%; */
+      align-items: end;
       margin-top: 2%;
-      margin-right: 5vw;
+      margin-right: 10vw;
     }
     .end-request-button{
-      width: 50%;
-      margin-left: 6vw;
+      width: 80%;
     }
     .end-copyright-content{
       display: flex;
@@ -600,7 +604,7 @@
     }
     .end-request-button{
       font-size: 1.5vh;
-      width:80%;
+      /* width:100%; */
     }
     .end-content{
       /* font-size: 0.75; */
