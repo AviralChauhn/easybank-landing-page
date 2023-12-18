@@ -39,7 +39,7 @@
   .logo{
     margin-right: auto;
     width: 12rem;
-    height: 2rem;
+    height: 1.7rem;
   }
 
   .nav-bar{
@@ -209,7 +209,7 @@
     z-index: 0;
   } */
   .end-logo{
-    height: 8vh;
+    height: 9vh;
     padding-block: 3vh;
     /* margin-left: 31%; */
   }
@@ -284,6 +284,7 @@
     padding-block:2vh;
     padding-inline: 4vh;
     font-size: 1rem;
+    /* width: 100%; */
     border-radius: 50px;
     /* margin-left: 13vw; */
     color: white;
@@ -596,7 +597,7 @@
     }
     .end-request-button{
       font-size: 1.5vh;
-      width:50%;
+      width:80%;
     }
     .end-content{
       /* font-size: 0.75; */
