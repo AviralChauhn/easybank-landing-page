@@ -32,8 +32,13 @@
   }
   .nav-items{
     text-decoration: none;
+    /* color: black; */
   }
   .nav-icon{
+    margin-right: 4vw;
+  }
+  .close{
+    display: none;
     margin-right: 4vw;
   }
   .logo{
@@ -49,8 +54,37 @@
     height: 100%;
     margin: 0;
   }
+  #nav-open-close{
+    position: relative;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    height: 40%;
+    width: 90%;
+    margin-left: 6vw;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    z-index: 5;
+    margin-bottom: 0;
+    box-shadow: 75px 0px 75px rgba(20,23,63,0.2) ,
+    -75px 75px 75px rgba(20,23,63,0.2),
+    75px 75px 75px  rgba(20,23,63,0.2),
+    -75px 75px 75px  rgba(20,23,63,0.2);
+  }
+  #nav-modal{
+    display: block;
+    list-style: none;
+  }
   .main-heading{
     font-size: 3rem;
+  }
+  .nav-element{
+    padding-block: 2vh;
+  }
+  .nav-element a{
+    text-decoration: none;
+    color: black;
   }
   .cropped-img{
     justify-content: center;
@@ -295,11 +329,11 @@
   .end-request-button:hover{
     background-image: linear-gradient(117deg,hsl(136, 65%, 70%)0%,hsl(192, 70%, 70%));
   }
-  a{
+  .end-content a{
     text-decoration: none;
     color: white;
   }
-  a:hover{
+  .end-content a:hover{
     color:var(--lime-green);
   }
   @media (min-width:850px){
@@ -353,12 +387,15 @@
     }
     .nav-items{
       list-style: none;
+      background-color: white;
+      border-bottom: 5px solid transparent;
+    }
+    .nav-items a{
       margin-inline: 1.5vw;
       margin-top: 1vh;
       cursor: pointer;
+      text-decoration: none;
       font-size: 1.1rem;
-      background-color: white;
-      border-bottom: 5px solid transparent;
       color: var(--grayish-blue);
     }
     .nav-items:hover{

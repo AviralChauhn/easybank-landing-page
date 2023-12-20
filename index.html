@@ -38,15 +38,25 @@
         <img class="logo" src="  /images/logo.svg" alt="" />
         <div class="nav">
           <ul class="nav-categories">
-            <li class="nav-items">Home</li>
-            <li class="nav-items">About</li>
-            <li class="nav-items">Contact</li>
-            <li class="nav-items">Blog</li>
-            <li class="nav-items">Careers</li>
+            <li class="nav-items"><a href="">Home</a></li>
+            <li class="nav-items"><a href="">About</a></li>
+            <li class="nav-items"><a href="">Contact</a></li>
+            <li class="nav-items"><a href="">Blog</a></li>
+            <li class="nav-items"><a href="">Careers</a></li>
           </ul>
         </div>
-        <img src="  /images/icon-hamburger.svg" alt="" class="nav-icon" />
-
+        <img
+          src="  /images/icon-hamburger.svg"
+          alt=""
+          class="nav-icon"
+          id="hamburger-icon"
+        />
+        <img
+          src="/images/icon-close.svg"
+          id="close-button"
+          class="close"
+          alt=""
+        />
         <button class="heading-request-button">Request Invite</button>
       </nav>
     </section>
@@ -56,6 +66,17 @@
           <img src="/images/bg-intro-desktop.svg" alt="" class="desktop-back" />
           <img src="  /images/bg-intro-mobile.svg" alt="" class="back-image" />
           <img src=" /images/image-mockups.png" alt="" class="mobile-mockup" />
+          <section id="nav-open-close">
+            <div>
+              <ul id="nav-modal">
+                <li class="nav-element"><a href="">HOME</a></li>
+                <li class="nav-element"><a href="">ABOUT</a></li>
+                <li class="nav-element"><a href="">CONTACT</a></li>
+                <li class="nav-element"><a href="">BLOG</a></li>
+                <li class="nav-element"><a href="">CAREER</a></li>
+              </ul>
+            </div>
+          </section>
         </div>
       </section>
       <section class="opening-paragraph">
@@ -250,7 +271,7 @@
         </div>
       </div>
     </section>
-
+    <script src="modal.js"></script>
     <div class="attribution">Coded by <a href="#">Aviral Chauhan</a>.</div>
   </body>
 </html>
