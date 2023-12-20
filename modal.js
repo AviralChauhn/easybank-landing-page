@@ -11,7 +11,12 @@ hambrugerClick.addEventListener("click", navActive);
 
 function navIconDisplay(e) {
   if (x.matches) {
+    closebtn.style.display = "none";
+    mockupMobile.style.display = "block";
     hambrugerClick.style.display = "none";
+    navSection.style.display = "none";
+    openingSection.style.opacity = "1.0";
+    openingPara.style.opacity = "1.0";
   } else {
     hambrugerClick.style.display = "block";
   }
