@@ -174,6 +174,7 @@
   }
   .Articles{
     text-align: center;
+    /* height: 95vh; */
     background-color: var(--very-light-gray);
   }
   .article-heading{
@@ -183,7 +184,8 @@
   }
   .article-card{
     width: 100%;
-    padding-bottom: 10vh;
+    margin-bottom: 20vh;
+    height: 95%;
     background-color: rgb(255, 255, 255);
   }
   .main-img{
@@ -216,7 +218,7 @@
     display: none;
   }
   .article-content{
-    padding-block: 2vh;
+    padding-block: 1vh;
     text-align: left;
     padding-inline: 8vw;
     font-size: 2.7vh;
@@ -243,32 +245,36 @@
     z-index: 0;
   } */
   .end-logo{
-    height: 9vh;
-    padding-block: 3vh;
+    height: 4vh;
+    /* padding-block: 3vh; */
     /* margin-left: 31%; */
   }
   .fb-footer-icon{
     z-index: 2;
-    height: 4vh;
-    padding-inline: 1vh;
+    margin-left: 1vw;
+    /* height: 5rem; */
+    /* padding-inline: 1vh; */
     cursor: pointer;
   }
-  .fb-footer-icon:hover{
+  svg:hover path {
     fill: var(--lime-green);
-  }
+}
   .yt-footer-icon{
-    height: 4vh;
-    padding-inline: 1vh;
+    /* height: 4vh; */
+    margin-left: 1vw;
+    /* padding-inline: 1vh; */
     cursor: pointer;
   }
-  .tw-footer-icon{
-    height: 4vh;
-    padding-inline: 1vh;
+  .twi-footer-icon{
+    /* height: 4vh; */
+    margin-left: 1vw;
+    /* padding-inline: 1vh; */
     cursor: pointer;
   }
   .pi-footer-icon{
-    height: 4vh;
-    padding-inline: 1vh;
+    /* height: 4vh; */
+    margin-left: 1vw;
+    /* padding-inline: 1vh; */
     cursor: pointer;
   }
   .logo-share-container{
@@ -278,8 +284,9 @@
     align-items: center;
   }
   .ins-footer-icon{
-    height: 4vh;
-    padding-inline: 1vh;
+    /* height: 4vh; */
+    margin-left: 1vw;
+    /* padding-inline: 1vh; */
     cursor: pointer;
   }
   .end-container{
@@ -336,7 +343,7 @@
   .end-content a:hover{
     color:var(--lime-green);
   }
-  @media (min-width:850px){
+  @media (min-width:1000px){
     .heading-request-button{
        display:flex;
         border: none;
@@ -510,6 +517,7 @@
     }
     .article-card{
       width: 95%;
+      height: fit-content;
       padding-bottom: 5vh;
       margin-bottom: 5vh;
     }
@@ -527,7 +535,7 @@
       width: 100%;
     }
     .first-main-img{
-      height: 55%;
+      height: 30vh;
       width: 100%;
     }
     .Articles{
@@ -569,9 +577,10 @@
       /* margin-top: 0.2rem; */
       /* padding-block: 9vh; */
       /* margin-left: 2vw; */
-      height: 5rem;
+      /* height: 2vh; */
       width: 9rem;
-      margin-bottom: 3vh;
+      margin-top: 5vh;
+      margin-bottom: 4.5vh;
       /* padding-bottom: 4vh; */
     }
     .share-icons{
@@ -646,5 +655,21 @@
     .end-content{
       /* font-size: 0.75; */
       margin-block:0.5vh;
+    }
+  }
+  @media (max-width:1394px){
+    .article-content{
+      font-size: 1vh;
+    }
+    .article-title{
+      font-size: 1.5vh;
+    }
+    .by-line{
+      font-size: 1vh;
+    }
+  }
+  @media (max-width:1033px){
+    .article-title{
+      font-size: 1.5vh;
     }
   }
