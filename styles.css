@@ -397,6 +397,7 @@
     .nav-items{
       list-style: none;
       background-color: white;
+      padding-top: 1vh;
       border-bottom: 5px solid transparent;
     }
     .nav-items a{
@@ -580,8 +581,8 @@
       /* padding-block: 9vh; */
       /* margin-left: 2vw; */
       /* height: 1vh; */
-      width: 9rem;
-      margin-top: 4vh;
+      width: 9.5vw;
+      margin-top: 3vh;
       margin-bottom: 4.5vh;
       /* padding-bottom: 4vh; */
     }
