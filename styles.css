@@ -246,6 +246,8 @@
   } */
   .end-logo{
     height: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
     /* padding-block: 3vh; */
     /* margin-left: 31%; */
   }
@@ -577,9 +579,9 @@
       /* margin-top: 0.2rem; */
       /* padding-block: 9vh; */
       /* margin-left: 2vw; */
-      /* height: 2vh; */
+      /* height: 1vh; */
       width: 9rem;
-      margin-top: 5vh;
+      margin-top: 4vh;
       margin-bottom: 4.5vh;
       /* padding-bottom: 4vh; */
     }
