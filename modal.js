@@ -5,7 +5,7 @@ let navSection = document.getElementById("nav-open-close");
 let mockupMobile = document.querySelector(".mobile-mockup");
 let openingSection = document.querySelector(".desktop-back");
 let openingPara = document.querySelector(".opening-paragraph");
-let x = window.matchMedia("(min-width:850px)");
+let x = window.matchMedia("(min-width:1000px)");
 x.addEventListener("change", navIconDisplay);
 hambrugerClick.addEventListener("click", navActive);
 
